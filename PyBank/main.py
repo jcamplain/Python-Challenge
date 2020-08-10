@@ -23,7 +23,7 @@ monthDecrease = changeProfit.index(min(changeProfit))+1
 
 
 print("Financial Analysis")
-print("------------------------")
+print("---------------------")
 print(f"Total Months:{len(totalMonths)}")
 print(f"Total: ${sum(TprofitLosses)}")
 print(f"Average Change: {round(sum(changeProfit)/len(changeProfit),2)}")
