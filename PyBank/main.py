@@ -26,7 +26,7 @@ print("Financial Analysis")
 print("---------------------")
 print(f"Total Months:{len(totalMonths)}")
 print(f"Total: ${sum(TprofitLosses)}")
-print(f"Average Change: {round(sum(changeProfit)/len(changeProfit),2)}")
+print(f"Average Change: ${round(sum(changeProfit)/len(changeProfit),2)}")
 print(f"Greatest Increase in Profits: {totalMonths[monthIncrease]} (${(str(increase))})")
 print(f"Greatest Decrease in Profits: {totalMonths[monthDecrease]} (${(str(decrease))})")      
 
@@ -36,7 +36,7 @@ line1 = "Financial Analysis"
 line2 = "---------------------"
 line3 = str(f"Total Months: {len(totalMonths)}")
 line4 = str(f"Total: ${sum(TprofitLosses)}")
-line5 = str(f"Average Change: {round(sum(changeProfit)/len(changeProfit),2)}")
+line5 = str(f"Average Change: ${round(sum(changeProfit)/len(changeProfit),2)}")
 line6 = str(f"Greatest Increase in Profits: {totalMonths[monthIncrease]} (${(str(increase))})")
 line7 = str(f"Greatest Decrease in Profits: {totalMonths[monthDecrease]} (${(str(decrease))})")
 #\n to write on a new line
